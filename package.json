@@ -1,0 +1,30 @@
+{
+  "name": "xarxaindustry",
+  "version": "1.0.0",
+  "description": "diseñado para interactuar con bases de datos o APIs externas para obtener y manejar datos demográficos y empresariales.",
+  "main": "api.js",
+  "scripts": {
+    "start": "node --watch src/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevinisaza14/axios_Regex_Database_Xarxa.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Kevin Isaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevinisaza14/axios_Regex_Database_Xarxa/issues"
+  },
+  "homepage": "https://github.com/Kevinisaza14/axios_Regex_Database_Xarxa#readme",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.5"
+  }
+}
