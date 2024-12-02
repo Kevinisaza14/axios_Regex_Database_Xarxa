@@ -85,7 +85,6 @@ exports.getAllinfo = async (req, res) => {
                 }
             }
         }
-        console.log(data);
         return res.json(data);
     } catch (error) {
         return error;

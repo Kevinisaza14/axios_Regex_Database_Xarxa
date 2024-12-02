@@ -22,7 +22,9 @@ Para lograr almacenar los resultados en la base de datos se debera correr la db 
 
 ## Los endpoints son los siguientes:
 http://localhost:3000/api/v1/xarxaUrl 
+
 http://localhost:3000/api/v1/xarxaEmpresas
+
 http://localhost:3000/api/v1/xarxaAll
 
 Se debera ejecutar uno a la vez y experar hasta tener una respuesta ya que la cantidad de informacion es alta se requiere de bastante tiempo intermedio entre url para ejecutar la siguiente y que la base de datos quede cargada correctamente.
